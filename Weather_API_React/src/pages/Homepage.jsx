@@ -11,7 +11,6 @@ function Weather() {
             .then((response) => response.json())
             .then((weatherData) => {
                 setWeatherData(weatherData);
-                // console.log(weatherData);
             });
     }, [city]);
 
